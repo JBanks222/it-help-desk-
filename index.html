@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual IT Help Desk</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Firebase App (the core Firebase SDK) -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+<!-- Firebase Firestore SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+<!-- Firebase Analytics SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+<!-- Your custom script -->
+<script type="module" src="js/main.js"></script>
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Virtual IT Help Desk</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="knowledge-base.html">Knowledge Base</a>
+            <a href="guide.html">Guides</a>
+            <a href="#">Contact Support</a>
+        </nav>
+    </header>
+
+    <!-- Search Bar Section -->
+    <section class="search-bar">
+        <h2>What do you need help with?</h2>
+        <input type="text" placeholder="Search for help topics..." id="search-input">
+        <button id="search-button">Search</button>
+    </section>
+
+    <!-- Popular Topics Section -->
+    <section class="popular-topics">
+        <h2>Popular Topics</h2>
+        <div class="topics-grid">
+            <!-- Popular topics will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Recent Guides Section -->
+    <section class="recent-guides">
+        <h2>Guides and Tutorials</h2>
+        <div class="guides-list">
+            <!-- Guides will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 IT Help Desk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

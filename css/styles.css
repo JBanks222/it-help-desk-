@@ -1,0 +1,87 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 2rem;
+}
+
+.search-bar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 60%;
+    max-width: 400px;
+    margin-right: 0.5rem;
+}
+
+.search-bar button {
+    padding: 0.5rem 1rem;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.popular-topics, .recent-guides {
+    padding: 2rem;
+    text-align: center;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.topic-card {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.guides-list article {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
